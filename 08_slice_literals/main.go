@@ -9,7 +9,7 @@ func main(){
 	// dynamic and can grow
 	// []type {....}
 
-	sub := [3] string{"math", "sci", "phy"}
+	sub := [] string{"math", "sci", "phy"}
 
 	fmt.Println(sub);
 	sub[0] = "chemi";
